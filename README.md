@@ -1,4 +1,4 @@
-## Sidebar responsivo
+#### <h1 align="center"> Sidebar responsivo </h1>
 
 ![side-gif](https://user-images.githubusercontent.com/91921212/156962001-de7240ee-937b-43c8-b36a-aaf14a270c25.gif)  
 
