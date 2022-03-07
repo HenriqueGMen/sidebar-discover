@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <title>SideBar</title>
+</head>
+<body>
+  <nav class="sidebar">
+    <div class="logo-content">
+      <div class="logo">
+        <img src="./assets/images/logo.svg" alt="logo veterinário">
+      </div>
+      <img id="btn" src="./assets/images/menu.svg" alt="logo menu">
+    </div>
+    
+    <ul class="nav">
+      <li>
+        <img src="./assets/images/search.svg" alt="icon menu" class="search">
+        <input type="text" name="" id="" placeholder="Buscar">
+      </li>  
+      <li>
+        <a href="#">
+          <img src="./assets/images/grid.svg" alt="icon grid">
+          <span class="links">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/images/pet.svg" alt="">
+          <span class="links">Pets</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/images/user.svg" alt="">
+          <span class="links">Clientes</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/images/vet.svg" alt="">
+          <span class="links">Vets</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/images/settings.svg" alt="Icone configurações">
+          <span class="links">Ajustes</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="user-content">
+      <div class="user">
+        <img src="./assets/images/photo.jpg" alt="foto de perfil">
+        <div class="user-info">
+          <div class="name">Eleanor Pena</div>
+          <div class="job">Veterinária</div>
+        </div>
+      </div>
+      <img src="./assets/images/log-out.svg" alt="" id="log-out">
+    </div>
+  </nav>
+
+  <main>
+    <div class="dashboard">
+      <div class="dash-text">Dashboard</div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
